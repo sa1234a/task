@@ -9,8 +9,7 @@ public class CheckFileExtention {
 		fetchFileExtentions(args[0]);
 
 	}
-	
-	
+		
 	private static void fetchFileExtentions(String directoryPath){
 		File path = new File(directoryPath);
 		File[] fileList = path.listFiles();
