@@ -40,5 +40,4 @@ public class CheckFileExtention {
 		return;
 	}
 
-
 }
