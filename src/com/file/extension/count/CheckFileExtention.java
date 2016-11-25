@@ -1,5 +1,4 @@
 package com.file.extension.count;
-
 import java.io.*;
 import java.util.*;
 
