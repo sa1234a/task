@@ -2,6 +2,9 @@ package com.file.extension.count;
 import java.io.*;
 import java.util.*;
 
+
+
+
 public class CheckFileExtention {
 
 	public static void main(String[] args) {
