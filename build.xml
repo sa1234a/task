@@ -13,7 +13,11 @@
     <path id="FileExtentions.classpath">
         <pathelement location="bin"/>
     </path>
-	<jar destfile="FileExtentions.jar" basedir="bin"/>
+	<jar destfile="FileExtentions.jar" basedir="bin">
+        <manifest>
+        <attribute name="Main-Class" value="FileExtention" />
+    </manifest>
+         </jar>
     <target name="init">
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
