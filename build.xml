@@ -15,7 +15,7 @@
     </path>
 	<jar destfile="FileExtentions.jar" basedir="bin">
         <manifest>
-        <attribute name="Main-Class" value="FileExtention" />
+        <attribute name="Main-Class" value="FileExtentions" />
     </manifest>
          </jar>
     <target name="init">
