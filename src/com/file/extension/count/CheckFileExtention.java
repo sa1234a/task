@@ -8,7 +8,7 @@ public class CheckFileExtention {
 	public static void main(String[] args) {
 
 	
-                System.setOut("Search path"+args[0]);
+                System.out.println("Search path"+args[0]);
 		fetchFileExtentions(args[0]);
 
 	}
