@@ -6,7 +6,7 @@ import java.util.*;
 public class CheckFileExtention {
 
 	public static void main(String[] args) {
-		System.out.println(" directory path "+args[0]);
+		System.out.println("Search path: "+args[0]);
 		fetchFileExtentions(args[0]);
 
 	}
